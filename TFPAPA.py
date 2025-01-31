@@ -133,7 +133,7 @@ def TF_command(message):
         logging.info(f"Received arguments: {args}")
 
         if len(args) != 3:
-            raise ValueError("TF_FLASH92 𝘅 𝗗𝗶𝗟𝗗𝗢𝗦™ 𝗣𝗨𝗕𝗟𝗶𝗖 𝗕𝗢𝗧 𝗔𝗖𝗧𝗶𝗩𝗘 ✅ \n\n⚙ USE THIS 👇⬇️\n/𝗯𝗴𝗺𝗶 <IP> <PORT> <DURATION>")
+            raise ValueError("TF_FLASH92 𝘅 𝗗𝗶𝗟𝗗𝗢𝗦™ 𝗣𝗨𝗕𝗟𝗶𝗖 𝗕𝗢𝗧 𝗔𝗖𝗧𝗶𝗩𝗘 ✅ \n\n⚙ USE THIS 👇⬇️\n/TF <IP> <PORT> <DURATION>")
 
         target_ip, target_port, user_duration = args
 
